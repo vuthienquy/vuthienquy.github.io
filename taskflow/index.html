@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TaskFlow - Quản lý công việc</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span>✓</span> TaskFlow</a>
+      <button class="nav-toggle" aria-label="Mở menu">☰</button>
+      <nav class="nav-links">
+        <a href="../index.html">Trang chính</a>
+        <a class="active" href="index.html">Trang chủ</a>
+        <a href="tasks.html">Công việc</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="contact.html">Liên hệ</a>
+        <span class="auth-links"></span>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Nền tảng quản lý cá nhân</span>
+          <h1>Hoàn thành công việc.<br><em>Nhẹ nhàng hơn mỗi ngày.</em></h1>
+          <p>Ghi chú, sắp xếp và theo dõi mọi công việc trong một không gian đơn giản, trực quan.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tasks.html">Bắt đầu ngay</a>
+            <a class="btn btn-secondary" href="about.html">Tìm hiểu thêm</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-head"><div><small>Hôm nay</small><strong id="todayDate"></strong></div><span class="avatar">TF</span></div>
+          <div class="progress-wrap"><span>Tiến độ hôm nay</span><strong id="progressText">0%</strong></div>
+          <div class="progress"><span id="progressBar"></span></div>
+          <div id="homeTaskList" class="mini-task-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading"><span>Tổng quan</span><h2>Chuyển công việc thành kết quả</h2></div>
+        <div class="stats">
+          <article><span class="stat-icon purple">▦</span><div><strong id="totalStat">0</strong><p>Tổng công việc</p></div></article>
+          <article><span class="stat-icon orange">◷</span><div><strong id="doingStat">0</strong><p>Đang thực hiện</p></div></article>
+          <article><span class="stat-icon green">✓</span><div><strong id="doneStat">0</strong><p>Đã hoàn thành</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><p>© 2026 TaskFlow. Đồ án COMP1802.</p></div></footer>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

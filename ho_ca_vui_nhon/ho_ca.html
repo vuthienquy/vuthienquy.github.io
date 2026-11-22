@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Khám phá thế giới hồ cá vui nhộn cùng những chú cá, rùa và thợ lặn.">
+  <title>Hồ cá vui nhộn - COMP1802</title>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark">H</span><span>Hồ cá vui nhộn<small>Thiết kế Web · COMP1802</small></span></a>
+    <div class="header-actions">
+      <button class="control-button" id="sceneButton" type="button" aria-label="Đổi cảnh nền">◉ <span>Đổi cảnh</span></button>
+      <button class="control-button" id="musicButton" type="button" aria-pressed="false">♫ <span id="musicLabel">Phát nhạc</span></button>
+      <a class="back-link" href="../index.html">← Trang chính</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">Chuyến phiêu lưu dưới biển</p>
+      <h1>Chào mừng đến với <span>đại dương!</span></h1>
+      <p class="intro-copy">Cùng những người bạn nhỏ khám phá làn nước xanh và rạn san hô đầy màu sắc.</p>
+    </section>
+
+    <section class="aquarium" id="aquarium" data-scene="0" aria-label="Hoạt cảnh hồ cá">
+      <div class="sun-glow"></div>
+      <div class="light-rays" aria-hidden="true"></div>
+      <div class="bubbles" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <img class="school school-faint" src="Images/faintSchool.png" alt="">
+      <img class="school school-gold" src="Images/goldFishSchool.png" alt="">
+      <div class="creature shark" id="shark" aria-hidden="true"><img src="Images/shark.png" alt=""></div>
+      <img class="creature turtle" src="Images/turtle.png" alt="">
+      <img class="diver diver-blue" src="Images/diver1.png" alt="">
+      <img class="diver diver-red" src="Images/diver2.png" alt="">
+      <img class="diver diver-green" src="Images/diver3.png" alt="">
+      <div class="seabed">
+        <span class="seaweed seaweed-one"></span>
+        <span class="seaweed seaweed-two"></span>
+        <span class="seaweed seaweed-three"></span>
+        <span class="coral coral-one"></span>
+        <span class="coral coral-two"></span>
+        <span class="shell"></span>
+      </div>
+      <p class="scene-caption">Một ngày bình yên dưới đáy biển</p>
+    </section>
+    <p class="scene-status" id="sceneStatus" aria-live="polite"></p>
+    <p class="audio-status" id="audioStatus" aria-live="polite"></p>
+
+    <section class="ocean-facts">
+      <article><span>🐠</span><div><h2>Đàn cá nhỏ</h2><p>Những chú cá vàng bơi tung tăng quanh rạn san hô.</p></div></article>
+      <article><span>🐢</span><div><h2>Bạn rùa biển</h2><p>Chậm rãi lướt qua đại dương xanh mát.</p></div></article>
+      <article><span>🤿</span><div><h2>Đội thợ lặn</h2><p>Cùng khám phá thế giới dưới mặt nước.</p></div></article>
+    </section>
+  </main>
+
+  <footer><p>Thực hiện bởi Vũ Thiện Quý · COMP1802</p></footer>
+  <script src="aquarium.js"></script>
+</body>
+</html>

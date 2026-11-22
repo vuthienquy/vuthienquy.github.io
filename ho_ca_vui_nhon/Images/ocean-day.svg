@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="water" x2="0" y2="1">
+      <stop stop-color="#57d4da"/>
+      <stop offset=".42" stop-color="#168eae"/>
+      <stop offset="1" stop-color="#073c68"/>
+    </linearGradient>
+    <radialGradient id="sun">
+      <stop stop-color="#eaffd0" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#c5fff2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#water)"/>
+  <circle cx="790" cy="40" r="510" fill="url(#sun)"/>
+  <g fill="#eafffb" opacity=".17">
+    <path d="M650 0h95L90 780H0z"/>
+    <path d="M770 0h80L620 780H510z"/>
+    <path d="M880 0h75l130 780h-95z"/>
+    <path d="M1010 0h70l430 780h-95z"/>
+  </g>
+  <g fill="#c6fff5" opacity=".32">
+    <circle cx="170" cy="290" r="7"/><circle cx="230" cy="240" r="4"/>
+    <circle cx="1370" cy="340" r="6"/><circle cx="1290" cy="410" r="3"/>
+    <circle cx="1060" cy="230" r="4"/><circle cx="520" cy="350" r="5"/>
+  </g>
+  <path d="M0 790q170-70 330 0t340 0 330 0 330 0 270 0v110H0z" fill="#185b67" opacity=".62"/>
+</svg>

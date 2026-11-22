@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="water" x2="0" y2="1">
+      <stop stop-color="#36c8c0"/>
+      <stop offset=".48" stop-color="#087f9a"/>
+      <stop offset="1" stop-color="#073957"/>
+    </linearGradient>
+    <linearGradient id="sand" x2="0" y2="1">
+      <stop stop-color="#e7c47d"/>
+      <stop offset="1" stop-color="#a96c55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#water)"/>
+  <circle cx="1260" cy="75" r="300" fill="#fff3ac" opacity=".23"/>
+  <path d="M0 760q200-70 390 0t380 0 390 0 440 0v140H0z" fill="url(#sand)"/>
+  <g opacity=".95">
+    <path d="M90 780v-130m0 54-45-48m45 13 54-55m-54 106-54-43" fill="none" stroke="#f08b72" stroke-width="24" stroke-linecap="round"/>
+    <path d="M1450 790V620m0 65-48-55m48 28 54-75m-54 130-65-57" fill="none" stroke="#f4a261" stroke-width="28" stroke-linecap="round"/>
+    <path d="M340 800v-95m0 42-38-38m38 20 40-48" fill="none" stroke="#5bc49a" stroke-width="18" stroke-linecap="round"/>
+    <path d="M1230 810v-105m0 48-40-45m40 28 48-55" fill="none" stroke="#46b782" stroke-width="20" stroke-linecap="round"/>
+  </g>
+  <g fill="#d7fff2" opacity=".38">
+    <circle cx="250" cy="220" r="8"/><circle cx="310" cy="170" r="4"/>
+    <circle cx="1170" cy="315" r="6"/><circle cx="1105" cy="270" r="3"/>
+    <circle cx="830" cy="180" r="5"/><circle cx="1420" cy="440" r="4"/>
+  </g>
+</svg>

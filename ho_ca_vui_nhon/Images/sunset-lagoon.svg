@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="water" x2="0" y2="1">
+      <stop stop-color="#f6b36f"/>
+      <stop offset=".3" stop-color="#54b8bf"/>
+      <stop offset=".72" stop-color="#146d92"/>
+      <stop offset="1" stop-color="#0a3459"/>
+    </linearGradient>
+    <radialGradient id="sun">
+      <stop stop-color="#fff5c3" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#ffd79b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#water)"/>
+  <circle cx="1100" cy="185" r="290" fill="url(#sun)"/>
+  <path d="M0 680q210-45 410 0t410 0 410 0 370 0v220H0z" fill="#174e62" opacity=".68"/>
+  <g fill="#fff2cb" opacity=".35">
+    <path d="M930 380h360v10H930z"/><path d="M1040 420h300v7h-300z"/>
+    <path d="M1120 460h210v5h-210z"/>
+  </g>
+  <g fill="#b5fff1" opacity=".38">
+    <circle cx="260" cy="300" r="6"/><circle cx="340" cy="245" r="4"/>
+    <circle cx="720" cy="390" r="5"/><circle cx="1470" cy="390" r="6"/>
+  </g>
+</svg>
